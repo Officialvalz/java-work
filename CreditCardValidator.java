@@ -13,7 +13,6 @@ public class  CreditCardValidator {
         String cardStatus = checkIfValid(number);
         
         
-        //System.out.println(getSumOfEvenAndOdd("4388576018402626"));
         System.out.println("Credit card digit length: " + number.length());
         
         System.out.println("Credit Card Number: " + number);
@@ -42,7 +41,6 @@ public class  CreditCardValidator {
     }
     
     public static int getSumOfEvenAndOdd(String number) {
-        //int number = Integer.parseInt(number);
         int odd = 0;
         int even = 0;
         for (int index = number.length() - 1; index > 0; index -= 2) {

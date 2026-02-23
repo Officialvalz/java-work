@@ -33,6 +33,17 @@ public class CheckoutSystem {
 	System.out.println("Enter Quatity Of Product:  ");
 	cartQuantities[index] = input.nextInt();
 	
+	System.out.print("\nEnter Discount Percentage( 0 if none)");
+	double enterPercentage = input.nextDouble();
+	
+	
+	
+	
+
+	
+	
+	
+	
 	}
 	
 	}

@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class TransactionLog{
 			
 		static double balance = 0;
-		static String transactions [ ] = new String [ 500];
+		static String transactions [ ] = new String [ 100];
 		static int transactionCounter = 0; 	
 		static Scanner input = new Scanner(System.in);
 		
 		LocalDateTime currentTime = LocalDateTime.now();
-		static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/YYYY  HH:mm:ss");
+		static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy  HH:mm:ss");
 		String formattedTime = currentTime.format(formatter);
 		
 		public static void main(String [ ] args){
