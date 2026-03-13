@@ -86,21 +86,9 @@ if  (choice.equals("1")){
 	}else{
 			System.out.println("Invalid Selection!        \nSelect A Number From 1-5");
 	}	
-		
-				
+						
 }
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		}
-
-
-
-
+			
+  }
+	
 }

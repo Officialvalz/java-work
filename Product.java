@@ -14,7 +14,7 @@ public class Product{
         int thirdNum = input.nextInt();
 
         int sum = firstNum + secondNum + thirdNum;
-        int average = sum /3;
+        int average = sum / 3;
         int product = firstNum * secondNum * thirdNum;
 
         System.out.println("Display total results");
